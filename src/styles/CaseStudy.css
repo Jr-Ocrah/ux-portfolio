@@ -1,0 +1,140 @@
+
+.small {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+   /*  min-width: 500px;  */
+}    
+
+.big {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    align-items: center;
+    flex: 1;
+    /* left: 3%; */
+    margin-left: 20px ;
+    flex-direction: row;
+    
+}
+
+
+.img {
+width: 80%;
+/* min-width: 500px */ ;
+}
+
+.full{
+    width: 150px;
+    height: 40px;
+    margin-left: 10em;
+    border-radius: 15px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: none;
+	outline: none;
+    background-color: #B4BAF1;
+}
+
+.full:hover {
+    background-color: #fff; 
+    border: 2px solid #000;
+    transform: scale(1.1);
+}
+
+.fuller{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 2em;
+    visibility: hidden;
+    opacity: 0;
+    border: none;
+	outline: none;
+    background-color: #B4BAF1;
+}
+
+.fuller:hover {
+    background-color: #fff; 
+    border: 2px solid #000;
+    transform: scale(1.1);
+}
+
+
+.smaller {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}   
+
+.titles{
+position: relative;
+font-size: 2em;
+color: #B4BAF1;
+
+}  
+
+.titley {
+font-size: 3em;
+text-align: center;
+padding-top: 30px;
+}
+
+.des{
+position: relative;
+margin-top: -15px;
+font-size: 18px;
+font-style: italic;
+
+
+
+}
+.artful {
+    border-bottom: 2px solid;
+}
+
+@media only screen and (max-width: 750px/*previously 1240*/) {
+	.fuller {
+		visibility: visible;
+		opacity: 1;
+	}
+    .full{
+        visibility: hidden;
+    }
+
+    .small {
+        width: 100%;
+        /*min-width: 350px;*/
+    }  
+
+    
+
+    .img {
+        width: 50%;
+        min-width: 350px;
+        
+        }
+
+        .titles{
+            font-size: 1.3em;
+        }
+        .titley{
+            font-size: 1.5em;
+        
+        }
+        .big {
+            flex-wrap: wrap;
+        }
+        .des{
+            min-width: 350px;/*350*/
+            font-size: 0.95em;
+        }
+
+        .desc{
+            font-size: 0.8em;
+        }
+}

@@ -1,0 +1,127 @@
+.section{
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    padding-bottom: 120px;
+}
+
+.me {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 88px;
+    border-radius: 132px;
+}
+
+
+
+.ux{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #8893f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+/* a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.5em;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+a:hover {
+    text-decoration: underline;
+     */
+
+     .nave{
+        position: relative;
+        top: -20px;
+        width: 100px;
+        height: 50px;
+        background: transparent;
+        border-radius: 8px;
+        font-size: 0;
+        
+    }
+  .nave a{
+        font-size: 25px;
+        
+        color:black;
+        text-decoration: none;
+        line-height: 50px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        left: -50px;
+        align-items: center;
+    } 
+    .nave .animation{
+        position: absolute;
+        height: 100%;
+        /* height: 5px; */
+        top: 0;
+        /* bottom: 0; */
+        z-index: 0;
+        background: #B4BAF1;
+        border-radius: 8px;
+        transition: all .5s ease 0s;
+        left: -50px;
+    }
+    .nave a:nth-child(1){
+        width: 200px;
+    }
+    .nave .start-home, a:nth-child(1):hover~.animation{
+        width: 200px;
+        top: 0;
+        left: -50px;
+    }
+    .nave a:nth-child(2){
+        width: 200px;
+    }
+    .nave a:nth-child(2):hover~.animation{
+        width: 200px;
+        top: 50px;
+    }
+    .nave a:nth-child(3){
+        width: 200px;
+    }
+    .nave a:nth-child(3):hover~.animation{
+        width: 200px;
+        top: 100px;
+    }
+    .nave a:nth-child(4){
+        width: 200px;
+        
+    }
+    .nave a:nth-child(4):hover~.animation{
+        width: 200px;
+        top: 150px;
+        
+    }
+
+    @media only screen and (max-width: 750px) {
+    .section{
+        padding-bottom: 140px;
+    }
+
+    .front{
+        margin-top: 40px;
+    }
+}

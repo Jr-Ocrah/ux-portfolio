@@ -1,0 +1,49 @@
+.biggest{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-bottom: 4px solid #B4BAF1;
+}
+
+.title{
+ position: relative;
+ margin-top: auto;
+ margin-bottom: auto;
+ border: none;
+ padding-right: 20px;
+ padding-bottom: 50px;
+ color: #B4BAF1;
+ font-size: 2em;
+ width: 50%;
+}
+
+.main{
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+.image {
+    width: 50%;
+    min-width: 250px;
+}
+
+.image:hover {
+    transform: scale(1.1);
+} 
+
+@media only screen and (max-width: 1240px) {
+    .title{
+        font-size: 1.3em;
+    }
+    .main{
+        font-size: 1.5em;
+    
+    }
+}

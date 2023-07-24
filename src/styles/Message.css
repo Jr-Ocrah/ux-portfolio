@@ -1,0 +1,195 @@
+/*   *{
+ outline:1px solid red; 
+}  */
+ 
+.name{
+    display: block;
+    font-size: 1.3em;
+    margin-left: -420px;
+    
+
+}
+
+.namey{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 1.6em;
+    border-radius: 18px;
+}
+
+.email{
+    display: block;
+    font-size: 1.3em;
+    margin-left: -420px;
+
+}
+
+.emaily{
+    width: 500px;
+    height: 50px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    font-size: 1.6em;
+}
+
+.mess{
+    font-size: 1.3em;
+    margin-left: -390px;
+
+}
+
+.messy{
+    width: 500px;
+    height: 200px;
+    border-radius: 18px;
+    font-size: 1.6em;
+}
+
+::placeholder {
+    position: relative;
+    color: gray;
+    font-size: 1.3em;
+    padding:0 1em;
+    text-align: rightt;
+
+  }
+
+  .send {
+    font-size: 5em;
+    font-weight: 600;
+    color: #B4BAF1;
+  }
+
+  .chat {
+    font-size: 1.8em;
+    margin-top: -55px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    /* min-width: 500px; */
+    margin-left: 10px;
+
+  }
+
+  .bbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .bo {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+  }
+
+
+textarea {
+    font-size: 1.3em;
+}
+
+.last{
+    width: 500px;
+    height: 60px;
+    border-radius: 18px;
+    margin-top: 30px;
+    font-size: 1.3em;
+    background-color: #B4BAF1;
+    border: none;
+	outline: none;
+}
+
+.last:hover {
+    background-color: #fff; 
+    border: 2px solid #000;
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 724px) {
+	.namey{
+    width: 350px;
+    height: 35px;
+    margin-bottom: 2px;
+    font-size: 1.3em;
+    border-radius: 9px;
+    margin-left: 50px;
+}
+
+.name{
+  margin-left: -230px;
+}
+
+.emaily{
+  width: 350px;
+  height: 35px;
+  border-radius: 9px;
+  margin-bottom: 2px;
+  font-size: 1.3em;
+  margin-left: 50px;
+}
+
+.email{
+  margin-left: -230px;
+}
+
+.messy{
+  width: 350px;
+  height: 200px;
+  border-radius: 9px;
+  margin-bottom: 2px;
+  font-size: 1.3em;
+  margin-left: 50px;
+}
+
+.mess{
+  margin-left: -210px;
+}
+
+.last{
+  width: 350px;
+  height: 50px;
+  border-radius: 18px;
+  margin-top: 30px;
+  font-size: 1.3em;
+  background-color: #B4BAF1;
+  border: none;
+outline: none;
+margin-left: 50px;
+}
+
+.send {
+  font-size: 2.5em;
+  
+}
+
+.chat {
+  font-size: 1.3em;
+  margin-top: 0.5px;
+  
+
+}
+
+.bo{
+  position:relative;
+  top: 2%;
+  margin-left: -40px;
+
+}
+
+.box{
+  width: 50%;
+  margin-top: 50px;
+}
+		
+	}
